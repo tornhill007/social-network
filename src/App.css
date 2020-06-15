@@ -9,26 +9,7 @@
     grid-template-columns: 2fr 10fr;
 }
 
-
-.header {
-    grid-area: header;
-    background-color: darkorange;
-}
-
-.header img {
-    width: 5%;
-}
-
-.nav {
-    grid-area: nav;
-    background-color: crimson;
-}
-
-.content {
+.app-wrapper-content {
     grid-area: content;
     background-color: deepskyblue;
-}
-
-.content img {
-    width: 80%;
 }

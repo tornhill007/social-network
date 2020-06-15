@@ -1,0 +1,11 @@
+.selected {
+    font-weight: bold;
+}
+.paginator {
+    padding-top: 10px;
+}
+.paginator span {
+    border: black solid 1px;
+    margin: 2px;
+    padding: 1px;
+}
