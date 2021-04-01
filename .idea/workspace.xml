@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0619cba-7fd2-494d-b1f9-d39ac3d17dc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/avat-01-512.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileDataForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControl/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControl/FormsControls.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/authReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hoc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo-list-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,18 +55,18 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\komarik\Desktop\social-network\src\hoc" />
-      <recent name="C:\Users\komarik\Desktop\social-network\src\components\Profile\ProfileInfo" />
-      <recent name="C:\Users\komarik\Desktop\social-network\src\components\Users" />
-      <recent name="C:\Users\komarik\Desktop\social-network\src\components\common\Paginator" />
-      <recent name="C:\Users\komarik\Desktop\social-network\src\redux" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\komarik\Desktop\social-network\src\components\Profile\MyPosts" />
       <recent name="C:\Users\komarik\Desktop\social-network\src\components\Profile" />
       <recent name="C:\Users\komarik\Desktop\social-network\src\components\Navbar" />
       <recent name="C:\Users\komarik\Desktop\social-network\src\components\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\komarik\Desktop\social-network\src\components\Profile\ProfileInfo" />
+      <recent name="C:\Users\komarik\Desktop\social-network\src\assets\images" />
+      <recent name="C:\Users\komarik\Desktop\social-network\src\hoc" />
+      <recent name="C:\Users\komarik\Desktop\social-network\src\components\Users" />
+      <recent name="C:\Users\komarik\Desktop\social-network\src\components\common\Paginator" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -229,6 +237,16 @@
       <workItem from="1591552450530" duration="2124000" />
       <workItem from="1591611696204" duration="4000000" />
       <workItem from="1592121259990" duration="13514000" />
+      <workItem from="1592482052493" duration="106000" />
+      <workItem from="1592599245648" duration="124000" />
+      <workItem from="1592660671437" duration="13971000" />
+      <workItem from="1592731298782" duration="3305000" />
+      <workItem from="1592816528923" duration="30000" />
+      <workItem from="1592819126876" duration="1507000" />
+      <workItem from="1593696560037" duration="8124000" />
+      <workItem from="1593710468938" duration="1839000" />
+      <workItem from="1593761611365" duration="690000" />
+      <workItem from="1593807766014" duration="3835000" />
     </task>
     <servers />
   </component>
@@ -248,22 +266,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587579733279" />
-    <state width="1345" height="190" key="GridCell.Tab.0.bottom" timestamp="1592239616559">
+    <state x="472" y="115" key="FileChooserDialogImpl" timestamp="1593815479527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592239616559" />
-    <state width="1345" height="190" key="GridCell.Tab.0.center" timestamp="1592239616558">
+    <state x="472" y="115" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593815479527" />
+    <state width="1345" height="190" key="GridCell.Tab.0.bottom" timestamp="1593762383443">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592239616558" />
-    <state width="1345" height="190" key="GridCell.Tab.0.left" timestamp="1592239616558">
+    <state width="1345" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593762383443" />
+    <state width="1345" height="190" key="GridCell.Tab.0.center" timestamp="1593762383442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592239616558" />
-    <state width="1345" height="190" key="GridCell.Tab.0.right" timestamp="1592239616558">
+    <state width="1345" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593762383442" />
+    <state width="1345" height="190" key="GridCell.Tab.0.left" timestamp="1593762383442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592239616558" />
+    <state width="1345" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593762383442" />
+    <state width="1345" height="190" key="GridCell.Tab.0.right" timestamp="1593762383443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593762383443" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1591545030469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -312,18 +334,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1591545030470" />
-    <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591196879356">
+    <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592407466899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1591196879356" />
+    <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1592407466899" />
     <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1591276692075">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591276692075" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1591196751468">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1592316408555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1591196751468" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592316408555" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588625498556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
